@@ -1,0 +1,8 @@
+# Get into logs folder
+cd /private/var/log/asl/
+
+# Select all asl files
+ls *.asl
+
+# Remove all asl files
+sudo rm !$
