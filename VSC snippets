@@ -1,0 +1,50 @@
+{
+  "Console log" : {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "cons",
+    "body": [
+      "console.log('>>>>>> $1', $2)"
+    ],
+    "description": "Log output to console"
+  },
+  "Describe block": {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "desc",
+    "body": [
+      "describe('$1', () => {$2})"
+    ],
+    "description": "Describe block for tests"
+  },
+  "It block": {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "it",
+    "body": [
+      "it('$1', () => {$2})"
+    ],
+    "description": "It block for tests"
+  },
+  "BeforeEach block": {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "beach",
+    "body": [
+      "beforeEach(() => {$1})"
+    ],
+    "description": "BeforeEach block for tests"
+  },
+  "AfterEach block": {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "aeach",
+    "body": [
+      "afterEach(() => {$1})"
+    ],
+    "description": "AfterEach block for tests"
+  },
+  "Expect": {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "exp",
+    "body": [
+      "expect($1).to.equal($2)"
+    ],
+    "description": "Expect to equal block for tests"
+  }
+}
